@@ -1,9 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Dashboard from './views/Dashboard.vue'
-import Consumable from './views/Consumable.vue'
-import nonConsumable from './views/Non-consumable.vue'
-import newCommand from './views/New-command.vue'
+import Customers from './views/Customers.vue'
+import Forms from './views/Forms.vue'
+import Stock from './views/Stock.vue'
+import Supliers from './views/Supliers.vue'
 
 Vue.use(Router)
 
@@ -17,19 +18,24 @@ export default new Router({
       component: Dashboard
     },
     {
-      path: '/consumable',
-      name: 'Consumable',
-      component: Consumable
+      path: '/customers',
+      name: 'Customers',
+      component: Customers
     },
     {
-      path: '/non-consumable',
-      name: 'Non-consumable',
-      component: nonConsumable
+      path: '/forms',
+      name: 'Forms',
+      component: Forms
     },
     {
-      path: '/new-command',
-      name: 'New-Command',
-      component: newCommand
+      path: '/stock',
+      name: 'Stock',
+      component: Stock
+    },
+    {
+      path: '/supliers',
+      name: 'Supliers',
+      component: Supliers
     },
   ]
 })

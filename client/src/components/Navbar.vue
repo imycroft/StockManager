@@ -34,9 +34,10 @@ export default {
             drawer: false,
             links: [
                 {icon: 'dashboard', text: 'Dashboard', route:'/'},
-                {icon: 'autorenew', text: 'Consumable', route:'/consumable'},
-                {icon: 'extension', text: 'Non consumable', route:'/non-consumable'},
-                {icon: 'fiber_new', text: 'New command', route:'/new-command'},
+                {icon: 'store', text: 'Stock', route:'/stock'},
+                {icon: 'assignment', text: 'Forms', route:'/forms'},
+                {icon: 'shopping_cart', text: 'Supliers', route:'/supliers'},
+                {icon: 'group', text: 'Customers', route:'/customers'},
 
             ]
         }
