@@ -8,13 +8,13 @@
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-menu open-on-hover down offset-y>
-        <v-btn  flat slot="activator" color="primary" dark>
+        <v-btn  flat slot="activator" color="primary">
             <!-- <v-icon left>menu</v-icon> -->
             <span>MENU</span>
             
         </v-btn>
 
-        <v-list>
+        <v-list class="blue lighten-3">
           <v-list-tile v-for="(item, index) in links" :key="index" router :to="item.route">
               <v-list-tile-action>
             <v-icon class="dark--text">{{ item.icon }}</v-icon>
